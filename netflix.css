@@ -1,0 +1,150 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:'poppins',sans-serif;
+}
+
+body{
+    background: #000;
+    color: #fff;
+}
+
+.header{
+    height: 100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("IN-en-20230918-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: cover;
+    background-position: center;
+
+    font-weight: 700;
+    position: relative;
+    
+        
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 120px 10px 120px;
+}
+
+.logo{
+    width: 150px;
+    cursor: pointer;
+    height: 100px;
+    
+    
+}
+
+
+select{
+    background-color:rgb(0, 0, 0,0.5);
+   color: white;
+   padding: 8px 30px;
+   border-radius: 5px;
+   font-weight: 700;
+   
+}
+
+#button1{
+    background-color: red;
+    color: white;
+   padding:8px 22px ;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 13px;
+    border: none;
+    margin-left: 15px;
+} 
+
+.page1{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     text-align: center;
+     margin-top: 100px;
+
+}
+
+.page1 h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+
+.page h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+
+     
+}
+
+.email-signup{
+       background: #fff;
+       border-radius: 4px;
+       display: flex;
+       align-items: center;
+       margin-top: 30px;
+       overflow: hidden;
+}
+
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    
+
+}
+
+.email-signup button{
+    padding: 15px 30px;
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.feature{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+}
+
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+
+}
+
+.feature h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+ 
